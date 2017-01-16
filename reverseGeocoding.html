@@ -50,6 +50,9 @@
       // check javacript console for debugging
       console.log(location.results[0].formatted_address);
       var address = location.results[0].formatted_address;
+	  
+	  // Use following URL as reference in order to modify the search criteria such as city ,state , locality
+      // http://maps.googleapis.com/maps/api/geocode/json?latlng=12.993015,77.661817&sensor=true
 
       // creates the new information on given marker with given address
       var infoWindow = new google.maps.InfoWindow({
